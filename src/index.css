@@ -10,6 +10,9 @@ body {
     background: radial-gradient(circle, rgba(238,174,202,0.3660057773109243) 0%, rgba(148,187,233,0.4948573179271709) 100%);
 }
 
+h3 {
+    font-weight: 600;
+}
 
 /* Navigation Bar */
 
@@ -22,7 +25,7 @@ body {
 }
 
 .nav-item {
-    margin: 7px;
+    margin: 3px;
     overflow: hidden;
 }
 
@@ -32,7 +35,6 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 1.25em;
     font-weight: 600;
 }
 
@@ -72,14 +74,19 @@ body {
     padding-top: 25px;
 }
 
-.section-subheading {
-    padding-top: 15px;
+.home-heading {
+    font-size: 1.5em;
+}
+
+.home-subheading {
+    font-size: 1.25em;
+    padding-top: 10px;
+    font-weight: 600;
 }
 
 .resume-item {
-    width: 800px;
+    width: 60vw;
     margin-top: 40px;
-    font-size: 1.2em;
 }
 
 
@@ -95,23 +102,23 @@ body {
 }
 
 .item {
-    width: 300px;
+    width: 200px;
     height: 50px;
     margin: 5px;
     border: 3px solid rgba(238,174,202,0.5);
     text-align: center;
-    font-size: 1.3em;
     border-radius: 15px;
-    display: flex;           /* establish flex container */
-    flex-direction: column;  /* make main axis vertical */
-    justify-content: center; /* center items vertically, in this case */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.1em;
 }
 
 
 /* Home */
 
 .home {
-    margin-top: 46px;
+    margin-top: 3vh;
 }
 
 .avatar {
@@ -119,16 +126,15 @@ body {
 }
 
 .passage-text {
-    padding: 20px;
-    font-size: 1.35em;
-    text-align: justify;
-    width: 1200px;
+    padding: 15px;
+    font-size: 1.05em;
+    width: 70vw;
 }
 
 /* Skills */
 
 .skills {
-    height: 375px;
+    height: 52vh;
 }
 
 .skills-heading {
@@ -139,47 +145,42 @@ body {
 /* Education */
 
 .education {
-    height: 35vh;
+    height: 40vh;
 }
 
 /* Experience */
 
 .experience {
-    height: 180vh;
+    height: 200vh;
 }
 
 /* Projects */
 
 .projects {
-    height: 60vh;
-}
-
-.projects-title-container {
-    display: flex;
-    border: 2px solid red;
+    height: 55vh;
 }
 
 /* Interests */
 
 .interests {
-    height: 50vh;
-    /*padding-bottom: 40px;*/
+    height: 60vh;
+    padding-top: 8vh;
 }
 
 .interests-list {
     display: flex;
     justify-content: center;
-    padding-top: 25px;
+    padding-top: 15px;
 }
 
 .interest-button {
-    width: 235px;
-    height: 50px;
+    width: 150px;
+    height: 45px;
     margin: 5px;
     border: none;
     background-color: rgba(238,174,202,0.3);
     text-align: center;
-    font-size: 1.25em;
+    font-size: 1.05em;
     cursor: pointer;
     border-radius: 15px;
 }

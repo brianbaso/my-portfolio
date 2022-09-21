@@ -11,8 +11,8 @@ const IndexPage = () => {
         <div className="container">
           <div id="home" className="section container home">
             <img className="avatar" src={me} alt="Brian" />
-            <h1>Welcome to my digital home, I'm Brian. ☺</h1>
-            <h2 className="section-subheading">Fullstack Engineer • Technical Project Manager</h2>
+            <h1 className="home-heading">Welcome to my digital home, I'm Brian. ☺</h1>
+            <h2 className="home-subheading">Fullstack Engineer • Technical Project Manager</h2>
             <p className="passage-text">I started writing code back in 2017 after stumbling upon a hackathon as a pre-med major. From there,
               I explored avenues in software entrepreneurship and made the switch to study computer science.
               I recently graduated in December 2021 and now I am looking for a full-time software engineering role.
@@ -37,7 +37,7 @@ const IndexPage = () => {
             </ul>
           </div>
           <div id="education" className="section container education">
-            <h1 className="section-title">Education</h1>
+            <h2 className="section-title">Education</h2>
             <div className="resume-item">
               <h4>Graduated December 2021</h4>
               <h2>University of Central Florida</h2>
@@ -48,7 +48,7 @@ const IndexPage = () => {
             </div>
           </div>
           <div id="experience" className="section container experience">
-            <h1 className="section-title">Experience</h1>
+            <h2 className="section-title">Experience</h2>
             <div className="resume-item">
               <h4>June 2022 – Present</h4>
               <h2>Software Engineer</h2>
@@ -113,7 +113,7 @@ const IndexPage = () => {
             </div>
           </div>
           <div id="projects" className="section container projects">
-            <h1 className="section-title">Personal Projects</h1>
+            <h2 className="section-title">Personal Projects</h2>
             <div className="resume-item">
               <h2>Fasttrak&nbsp;
                 <a href="https://fasttrak.it/" rel="noreferrer">
@@ -146,7 +146,7 @@ const IndexPage = () => {
             </div>
           </div>
           <div id="interests" className="section container interests">
-            <h1 className="section-title">Interests</h1>
+            <h2 className="section-title">Interests</h2>
             <Interests />
           </div>
         </div>
