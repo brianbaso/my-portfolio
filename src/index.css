@@ -38,9 +38,13 @@ h3 {
     font-weight: 600;
 }
 
+.mobile-nav-toggle {
+    display: none;
+}
+
 .nav-item a:hover {
     color: rgb(238,174,350);
-    font-style: italic;
+    font-style: oblique;
     -moz-transform: scale(-1, -1);
     -webkit-transform: scale(-1, -1);
     -o-transform: scale(-1, -1);
@@ -188,4 +192,157 @@ h3 {
 .interest-button:hover {
     background-color: rgba(238,174,202,0.5);
     box-shadow: 2px 2px 3px darkgrey;
+}
+
+/* Responsive Styles */
+
+@media only screen and (max-width: 600px) {
+
+    /* Navigation Bar */
+
+    .nav-flex-container-hide {
+        display: none;
+    }
+
+    .nav-flex-container {
+        display: flex;
+        justify-content: flex-end;
+        background-color: #CEDEF399;
+        backdrop-filter: blur(14px);
+        position: fixed;
+        width: 100vw;
+        flex-direction: column;
+        margin-top: 45px;
+        /*flex-wrap: wrap;*/
+    }
+
+    .nav-item {
+        /*padding: 3px;*/
+        overflow: hidden;
+        height: 4vh;
+    }
+
+    .nav-item a {
+        display: block;
+        color: #333333;
+        text-align: center;
+        padding: 10px 16px;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .mobile-nav-toggle {
+        display: flex;
+        justify-content: flex-end;
+        position: fixed;
+        width: 96vw;
+        padding-top: 15px;
+        padding-right: 15px;
+    }
+
+    .mobile-nav-toggle-button {
+        background: transparent;
+        border: none;
+        display: block;
+
+    }
+
+    /* Home */
+
+    .home {
+        margin-top: 5vh;
+    }
+
+    .passage-text {
+        width: 90vw;
+        text-align: justify;
+    }
+
+
+    /* Section */
+
+    .section {
+        height: 110vh;
+        width: 90vw;
+    }
+
+    .home-heading {
+        text-align: center;
+    }
+
+    .home-subheading {
+        text-align: center;
+    }
+
+    .resume-item {
+        width: 80vw;
+        margin-top: 40px;
+    }
+
+    .section:before {
+        height: 65px;
+        content: "";
+        display: block;
+    }
+
+
+    /* Skills */
+
+    .skills {
+        margin-top: 5vh;
+        height: 60vh;
+    }
+
+    .list {
+        width: 100vw;
+    }
+
+    .item {
+        width: 150px;
+    }
+
+
+    /* Education */
+
+    .education {
+        height: 42vh;
+    }
+
+
+    /* Experience */
+
+    .experience {
+        height: 240vh;
+    }
+
+    .resume-position {
+        font-weight: 600;
+    }
+
+
+    /* Projects */
+
+    .projects {
+        height: 70vh;
+    }
+
+    .project-name {
+        font-weight: 600;
+    }
+
+    .project-link {
+        display: block;
+    }
+
+
+    /* Interests */
+
+    .interests {
+        height: 70vh;
+    }
+
+    .interest-button {
+        width: 110px;
+        font-size: .95em;
+    }
 }

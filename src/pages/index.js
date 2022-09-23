@@ -29,7 +29,7 @@ const IndexPage = () => {
               <li className="item">TypeScript</li>
               <li className="item">Node.js</li>
               <li className="item">Gatsby.js</li>
-              <li className="item">GraphQL</li>
+              <li className="item">REST APIs</li>
               <li className="item">Java</li>
               <li className="item">HTML/CSS</li>
               <li className="item">CSS Flexbox</li>
@@ -51,7 +51,7 @@ const IndexPage = () => {
             <h2 className="section-title">Experience</h2>
             <div className="resume-item">
               <h4>June 2022 – Present</h4>
-              <h2>Software Engineer</h2>
+              <h2 className="resume-position">Software Engineer</h2>
               <h3>Watchovr</h3>
               <ul>
                 <li>Front-end developer currently building out features on a React web app with Next.js & Supabase.</li>
@@ -61,7 +61,7 @@ const IndexPage = () => {
             </div>
             <div className="resume-item">
               <h4>February 2021 – May 2022</h4>
-              <h2>Technical Project Manager</h2>
+              <h2 className="resume-position">Technical Project Manager</h2>
               <h3>Watchovr</h3>
               <ul>
                 <li>Client-facing manager with responsibilities that included interviewing stakeholders, authoring user stories/functional specs, wire-framing, technical design, and managing developers on day-to-day service contracts to deliver high-quality products.</li>
@@ -69,7 +69,7 @@ const IndexPage = () => {
             </div>
             <div className="resume-item">
               <h4>May 2020 – August 2020</h4>
-              <h2>Program Manager Intern</h2>
+              <h2 className="resume-position">Program Manager Intern</h2>
               <h3>Microsoft</h3>
               <ul>
                 <li>Defined a new API for the xCloud SDK allowing game developers to obtain a client’s mobile device location.</li>
@@ -78,7 +78,7 @@ const IndexPage = () => {
             </div>
             <div className="resume-item">
               <h4>February 2018 – May 2020</h4>
-              <h2>Development Director</h2>
+              <h2 className="resume-position">Development Director</h2>
               <h3>Knight Hacks</h3>
               <ul>
                 <li>Founded the Knight Hacks development & design team at UCF, leading ten passionate student developers to create multiple hackathon software products using agile methods.</li>
@@ -87,7 +87,7 @@ const IndexPage = () => {
             </div>
             <div className="resume-item">
               <h4>May 2019 – August 2019</h4>
-              <h2>Program Manager Intern</h2>
+              <h2 className="resume-position">Program Manager Intern</h2>
               <h3>Microsoft</h3>
               <ul>
                 <li>Created user stories & feature specifications for a React web application to enable content moderation for the augmented reality mobile game, Minecraft Earth. This product allows moderators to handle any unsafe user-generated content on the game from millions of players upon release.</li>
@@ -96,7 +96,7 @@ const IndexPage = () => {
             </div>
             <div className="resume-item">
               <h4>July 2018 – January 2019</h4>
-              <h2>Software Engineering Intern</h2>
+              <h2 className="resume-position">Software Engineering Intern</h2>
               <h3>Royal Bank of Canada</h3>
               <ul>
                 <li>Developed and tested Java Spring microservices at RBC's innovation lab for disruptive financial technology projects.</li>
@@ -105,7 +105,7 @@ const IndexPage = () => {
             </div>
             <div className="resume-item">
               <h4>May 2018 – July 2018</h4>
-              <h2>Software Engineering Intern</h2>
+              <h2 className="resume-position">Software Engineering Intern</h2>
               <h3>Knightspeed Moving</h3>
               <ul>
                 <li>Developed a React app that allows nontechnical managers to update job states fluently during their day-to-day operations.</li>
@@ -115,8 +115,8 @@ const IndexPage = () => {
           <div id="projects" className="section container projects">
             <h2 className="section-title">Personal Projects</h2>
             <div className="resume-item">
-              <h2>Fasttrak&nbsp;
-                <a href="https://fasttrak.it/" rel="noreferrer">
+              <h2 className="project-name">Fasttrak&nbsp;
+                <a href="https://fasttrak.it/" className="project-link" rel="noreferrer">
                 (https://fasttrak.it/)
                 </a>
               </h2>
@@ -125,8 +125,8 @@ const IndexPage = () => {
               </ul>
             </div>
             <div className="resume-item">
-              <h2>Sun In My Eyes&nbsp;
-                <a href="https://suninmyeyes.gtsb.io/" rel="noreferrer">
+              <h2 className="project-name">Sun In My Eyes&nbsp;
+                <a href="https://suninmyeyes.gtsb.io/" className="project-link" rel="noreferrer">
                   (https://suninmyeyes.gtsb.io/)
                 </a>
               </h2>
@@ -135,8 +135,8 @@ const IndexPage = () => {
               </ul>
             </div>
             <div className="resume-item">
-              <h2>Personal Website&nbsp;
-                <a href="https://brianbaso.gtsb.io/" rel="noreferrer">
+              <h2 className="project-name">Personal Website&nbsp;
+                <a href="https://brianbaso.gtsb.io/" className="project-link" rel="noreferrer">
                   (https://brianbaso.gtsb.io/)
                 </a>
               </h2>
