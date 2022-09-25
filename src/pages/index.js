@@ -8,11 +8,11 @@ const IndexPage = () => {
   return (
       <div className="App">
         <Navbar />
-        <div className="container">
+        <div className="main-container">
           <div id="home" className="section container home">
             <img className="avatar" src={me} alt="Brian" />
             <h1 className="home-heading">Welcome to my digital home, I'm Brian. ☺</h1>
-            <h2 className="home-subheading">Fullstack Engineer • Technical Project Manager</h2>
+            <h2 className="home-subheading">Full Stack Engineer • Technical PM</h2>
             <p className="passage-text">I started writing code back in 2017 after stumbling upon a hackathon as a pre-med major. From there,
               I explored avenues in software entrepreneurship and made the switch to study computer science.
               I recently graduated in December 2021 and now I am looking for a full-time software engineering role.

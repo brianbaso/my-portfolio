@@ -55,6 +55,12 @@ h3 {
 
 /* Section */
 
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -62,10 +68,8 @@ h3 {
 }
 
 .section {
-    /*background-color: transparent;*/
-    /*border: 3px solid lavenderblush;*/
-    height: 95vh;
     width: 100%;
+    margin-top: 40px;
 }
 
 .section:before {
@@ -137,38 +141,15 @@ h3 {
 
 /* Skills */
 
-.skills {
-    height: 52vh;
-}
-
 .skills-heading {
     padding-top: 20px;
     padding-bottom: 10px;
 }
 
-/* Education */
-
-.education {
-    height: 40vh;
-}
-
-/* Experience */
-
-.experience {
-    height: 200vh;
-}
-
-/* Projects */
-
-.projects {
-    height: 55vh;
-}
-
 /* Interests */
 
 .interests {
-    height: 60vh;
-    padding-top: 8vh;
+    margin-bottom: 150px;
 }
 
 .interests-list {
@@ -213,13 +194,11 @@ h3 {
         width: 100vw;
         flex-direction: column;
         margin-top: 45px;
-        /*flex-wrap: wrap;*/
     }
 
     .nav-item {
-        /*padding: 3px;*/
         overflow: hidden;
-        height: 4vh;
+        height: 35px;
     }
 
     .nav-item a {
@@ -249,10 +228,6 @@ h3 {
 
     /* Home */
 
-    .home {
-        margin-top: 5vh;
-    }
-
     .passage-text {
         width: 90vw;
         text-align: justify;
@@ -262,7 +237,6 @@ h3 {
     /* Section */
 
     .section {
-        height: 110vh;
         width: 90vw;
     }
 
@@ -288,11 +262,6 @@ h3 {
 
     /* Skills */
 
-    .skills {
-        margin-top: 5vh;
-        height: 60vh;
-    }
-
     .list {
         width: 100vw;
     }
@@ -301,19 +270,7 @@ h3 {
         width: 150px;
     }
 
-
-    /* Education */
-
-    .education {
-        height: 42vh;
-    }
-
-
     /* Experience */
-
-    .experience {
-        height: 240vh;
-    }
 
     .resume-position {
         font-weight: 600;
@@ -321,10 +278,6 @@ h3 {
 
 
     /* Projects */
-
-    .projects {
-        height: 70vh;
-    }
 
     .project-name {
         font-weight: 600;
@@ -336,10 +289,6 @@ h3 {
 
 
     /* Interests */
-
-    .interests {
-        height: 70vh;
-    }
 
     .interest-button {
         width: 110px;
