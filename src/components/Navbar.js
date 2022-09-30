@@ -7,19 +7,16 @@ import { isMobile } from "react-device-detect";
 
 
 export const Navbar = () => {
-    const [isClosed, setIsClosed] = useState(false)
+    const [isOpen, setIsOpen] = useState(false)
 
-    // useEffect(() => {
-    //     console.log(isMobile, isClosed)
-    // }, [isMobile, isClosed])
     return (
         <>
             <div className="mobile-nav-toggle">
-                <button className="mobile-nav-toggle-button" onClick={() => setIsClosed(!isClosed)}>
+                <button className="mobile-nav-toggle-button" onClick={() => setIsOpen(!isOpen)}>
                     <FaHamburger fontSize="1.5rem"/>
                 </button>
             </div>
-            <div className={(isMobile && !isClosed) ? "nav-flex-container-hide" : "nav-flex-container"}>
+            <div className={isMobile ? (isOpen ? "nav-flex-container" : "nav-flex-container-hide") : "nav-flex-container"}>
                 <div className="nav-item"><AnchorLink href='#home'>Home</AnchorLink></div>
                 <div className="nav-item"><AnchorLink href='#skills'>Skills</AnchorLink></div>
                 <div className="nav-item"><AnchorLink href='#education'>Education</AnchorLink></div>
