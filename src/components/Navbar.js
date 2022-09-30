@@ -3,11 +3,13 @@ import '../index.css'
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import {FaHamburger} from 'react-icons/fa'
 import {useState} from "react";
-import { isMobile } from "react-device-detect";
+import { useMediaQuery } from 'react-responsive'
 
 
 export const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
+
+    const isMobile = useMediaQuery({ query: '(max-width: 600px)' });
 
     return (
         <>
