@@ -181,8 +181,8 @@ h3 {
 
     /* Navigation Bar */
 
-    .nav-flex-container-hide {
-        display: none !important;
+    #nav-flex-container-hide {
+        display: none;
     }
 
     .nav-flex-container {
