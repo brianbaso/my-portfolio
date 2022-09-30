@@ -181,16 +181,13 @@ h3 {
 
     /* Navigation Bar */
 
-    #hide {
-        display: none;
-    }
-
     .nav-flex-container {
         background-color: #CEDEF399;
         backdrop-filter: blur(14px);
         position: fixed;
         flex-direction: column;
         margin-top: 45px;
+        display: none;
     }
 
     .nav-item {
@@ -221,6 +218,10 @@ h3 {
         border: none;
         display: block;
 
+    }
+
+    .show {
+        display: flex !important;
     }
 
     /* Home */
