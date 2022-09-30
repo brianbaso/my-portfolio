@@ -9,7 +9,7 @@ import { useMediaQuery } from 'react-responsive'
 export const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
 
-    const isMobile = useMediaQuery({ query: '(max-width: 600px)' });
+    const isDesktop = useMediaQuery({ query: '(min-width: 601px)' });
 
     return (
         <>
@@ -18,15 +18,13 @@ export const Navbar = () => {
                     <FaHamburger fontSize="1.5rem"/>
                 </button>
             </div>
-            <div className="nav-flex-container" id={!isMobile ? "" : (isOpen ? "" : "nav-flex-container-hide")}>
+            <div className="nav-flex-container" id={isDesktop ? "" : (isOpen ? "" : "hide")}>
                 <div className="nav-item"><AnchorLink href='#home'>Home</AnchorLink></div>
                 <div className="nav-item"><AnchorLink href='#skills'>Skills</AnchorLink></div>
                 <div className="nav-item"><AnchorLink href='#education'>Education</AnchorLink></div>
                 <div className="nav-item"><AnchorLink href='#experience'>Experience</AnchorLink></div>
                 <div className="nav-item"><AnchorLink href='#projects'>Projects</AnchorLink></div>
                 <div className="nav-item"><AnchorLink href='#interests'>Interests</AnchorLink></div>
-                {/* <div className="nav-item">isOpen: {String(isOpen)}</div>
-                <div className="nav-item">isOpen: {String(isOpen)}</div> */}
             </div>
         </>
     );
