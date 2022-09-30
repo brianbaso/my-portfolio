@@ -182,7 +182,7 @@ h3 {
     /* Navigation Bar */
 
     .nav-flex-container-hide {
-        display: none;
+        display: none !important;
     }
 
     .nav-flex-container {

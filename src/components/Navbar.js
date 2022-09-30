@@ -9,6 +9,8 @@ import { isMobile } from "react-device-detect";
 export const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
 
+    console.log(isMobile, isOpen)
+
     return (
         <>
             <div className="mobile-nav-toggle">
