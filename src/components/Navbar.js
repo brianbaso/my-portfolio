@@ -25,6 +25,8 @@ export const Navbar = () => {
                 <div className="nav-item"><AnchorLink href='#experience'>Experience</AnchorLink></div>
                 <div className="nav-item"><AnchorLink href='#projects'>Projects</AnchorLink></div>
                 <div className="nav-item"><AnchorLink href='#interests'>Interests</AnchorLink></div>
+                <div className="nav-item">isOpen: {String(isOpen)}</div>
+                <div className="nav-item">isMobile: {String(isMobile)}</div>
             </div>
         </>
     );
