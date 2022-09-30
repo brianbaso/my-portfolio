@@ -186,12 +186,9 @@ h3 {
     }
 
     .nav-flex-container {
-        display: flex;
-        justify-content: flex-end;
         background-color: #CEDEF399;
         backdrop-filter: blur(14px);
         position: fixed;
-        width: 100vw;
         flex-direction: column;
         margin-top: 45px;
     }
